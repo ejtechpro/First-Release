@@ -6,11 +6,11 @@ echo ========================
 REM Clean previous build
 rmdir /s /q build
 rmdir /s /q dist
-del /q Hello.spec
+del /q hello.spec
 
 REM Run PyInstaller
-pyinstaller hello.py ^
-    --name Hello ^
+pyinstaller hello_v1.2.1.py ^
+    --name hello ^
     --noconfirm ^
     --windowed ^
     --clean ^
