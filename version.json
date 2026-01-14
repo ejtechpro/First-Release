@@ -1,4 +1,6 @@
 {
-  "latest_version": "1.1.1",
-  "url": "https://github.com/ejtechpro/First-Release/releases/download/v1.1.1/hello.exe"
+  "current_version": "1.2.1",
+  "latest_version": "1.2.1",
+  "version_url": "https://raw.githubusercontent.com/ejtechpro/First-Release/main/version.json",
+  "url": "https://github.com/ejtechpro/First-Release/releases/download/v1.2.1/hello.exe"  
 }
