@@ -160,7 +160,7 @@ class UpdateInstaller:
             
             print(f"Current executable-: {current_exe}")
             print(f"New executable-: {temp_exe}")
-          
+            print(f"New version-: {new_version}")
             
             # Check if we're running from Program Files (installed version)
             is_installed = False
