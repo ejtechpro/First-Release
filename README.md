@@ -1,5 +1,5 @@
 Inno Self-Updating Application
-A modern, self-updating desktop application built with Python and PySide6 that features automatic updates, resume capabilities, and a professional installation experience.
+A modern self updating desktop application built with Python(PySide6) that features automatic updates, resume capabilities, and a professional installation experience.
 
 🌟 Features
 Automatic Updates: Checks for and installs updates automatically

@@ -128,15 +128,15 @@ class Config:
             with open(LAST_CHECK_FILE, "w") as f:
                 json.dump(last_check, f)
         except Exception as e:
-            print(f"Error updating last check time: {e}")
+            print(f"Error updating the last check time: {e}")
 
 
 class UpdateInstaller:
-    """Handles the installation of downloaded updates"""
+    """Handles the installation of downloaded updates."""
     
     @staticmethod
     def check_pending_update():
-        """Check if there's a pending update that needs to be applied"""
+        """Check if there\'s a pending update that needs to be applied"""
         try:
             if os.path.exists(PENDING_UPDATE_FILE):
                 with open(PENDING_UPDATE_FILE, "r") as f:
@@ -158,9 +158,9 @@ class UpdateInstaller:
             current_exe = sys.executable
             temp_exe = new_exe_path
             
-            print(f"Current executable: {current_exe}")
-            print(f"New executable: {temp_exe}")
-            print(f"New version: {new_version}")
+            print(f"Current executable-: {current_exe}")
+            print(f"New executable-: {temp_exe}")
+            print(f"New version-: {new_version}")
             
             # Check if we're running from Program Files (installed version)
             is_installed = False
